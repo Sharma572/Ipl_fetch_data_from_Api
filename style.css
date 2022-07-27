@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #80ff806e;
+    text-align: center;
+}
+.container{
+    width: 80%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+thead,th{
+    background-color: #00008b;
+    color: #ffffff;
+    border: 1px solid black;
+}
+th{
+padding: 25px 0;
+}
+tbody tr td{
+    padding: 10px 0;
+    border: 1px solid darkred;
+}
+tbody td{
+    border: 2px solid #dddddd;
+}
+tbody tr td:first-child{
+    background-color: #f2f2f2;
+}
+tbody tr td:last-child{
+    background-color: #d1d1d1;
+}
